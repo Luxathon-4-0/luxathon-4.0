@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxathon</title>
     <!-- icons -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- gsap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="heading">
+
+
     <div class="container">
 
         <!-- <div class="stripes">
@@ -22,16 +24,18 @@
             <div class="line-two"></div>
         </div> -->
         <!-- navbar============== -->
-        <nav>
+        <nav > <img src="">
             <div class="logo">
                 <span>luxathon</span>
             </div>
+           
             <ul >
-                <li><a href="">About</a></li>
+                <li><a href=".about">About</a></li>
                 <li><a href="">Register</a></li>
                 <li><a href="">Terms and condition</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+            
             <div class="search">
                 <i class="fa fa-search"></i>
             </div>
@@ -48,7 +52,7 @@
       
             <span>Luxathon 4.0.</span>
          
-            <p>Design . Develop . Illuminate </p>
+            <p id="demo">Design . Develop . Illuminate </p>
         </div>
 
         <!-- <div class="btn">
@@ -58,90 +62,141 @@
 
         <div class="media" style="color: limegreen;">
             <ul>
-                <li><a href="https://www.facebook.com/luxathon"></a><i class="fa fa-facebook"></i></li>
-                <li><a href="https://www.instagram.com/ieee_sb_cek/"></a><i class="fa fa-instagram"></i></li>
+                <li><a href="https://www.facebook.com/luxathon"></a><i class="fa-brands fa-facebook-f"></i></li>
+                <li><a href="https://www.instagram.com/ieee_sb_cek/"></a><i class="fa-brands fa-instagram"></i></li>
                 <li> <i class="fa-brands fa-x-twitter"> </i> </li>
             </ul>
         </div>
 
     </div>
-    <script>
-        TweenMax.from(".logo", 1, {
-            opacity: 0,
-            delay: 2,
-            x: -20,
-            ease: Expo.easeInOut
-        })
+   
+</div>
 
-        TweenMax.staggerFrom("nav ul li", 1, {
-            opacity: 0,
-            delay: 2.2,
-            x: -20,
-            ease: Power3.easeInOut
-        }, 0.8)
+<br>
 
-        TweenMax.from(".search", 1, {
-            opacity: 0,
-            delay: 2.35,
-            x: -20,
-            ease: Expo.easeInOut
-        })
+<div class="card1">
+    <section id="about">
+        <h1 >
+             LUXATHON 4.0 <hr>
+        </h1>
+        <p> Luxathon is world's first 24-Hour university level electrical illumination  hackathon conducted by college of Engineering Karunagappally within 24 hours the participants has to design and develop an illumination system according to the specified theme and requirements by using given equipment in the most efficient way and according to standards</p>
+    </section>
+    <p id = "counter"> </p>
+</div>
 
-        TweenMax.from(".menu", 1, {
-            opacity: 0,
-            delay: 2.55,
-            x: -20,
-            ease: Expo.easeInOut
-        })
 
-        TweenMax.from(".title", 1, {
-            opacity: 0,
-            delay: 2.75,
-            y: 20,
-            ease: Expo.fadeIn
-        })
 
-        TweenMax.from(".btn", 1, {
-            opacity: 0,
-            delay: 2.95,
-            y: 20,
-            ease: Expo.easeInOut
-        })
+    <section id="register">
+       
+        <div class="card2">
+       
+      
+             <h1>What to do ?</h1>
+       
+        <br>
+ <table >
+    <tr>
+        <td margin="10%"> 
+            <div class="reg" >
+                <i class="fa-solid fa-people-robbery fasm fa-3x"></i>
+            <p  style="text-align: left;">Register as a team of 4-5 members.Work together as team.Win as a team</p>   
+            </div>
+        </td>
 
-        TweenMax.from(".line-one", 1, {
-            opacity: 0,
-            delay: 3.15,
-            y: -800,
-            ease: Expo.easeInOut
-        })
-        TweenMax.from(".line-two", 1, {
-            opacity: 0,
-            delay: 3.35,
-            y: -800,
-            ease: Expo.easeInOut
-        })
+        <td margin="10%"> 
+            <div class="reg1" >
+                <i class="fa-solid fa-terminal fasm fa-3x"></i>
+            <p  style="text-align: left;">All necessary equipments will be provided to the participants except arduino or raspberry pi board that should be brought by each team or can be hired from the venue. Also each team should carry one laptop.</p>   
+            </div>
+        </td>
+</tr>
+ </table>   
+ <table>
+    <tr>
+        <td margin="10%">
+            <div class="reg2">  
+                <i class="fa-solid fa-wrench fa-3x fasm"></i>
+                <p  style="text-align: left;"> A mentoring session explaining the bare minimum concepts will be provided by experts so that anyone with basic electrical knowledge can participate in the hackathon.</p>
+            </div>
+        </td>
 
-        TweenMax.from(".img", 2, {
-            opacity: 0,
-            delay: 0,
-            y: -800,
-            ease: Expo.easeInOut
-        })
+        <td margin="10%" >
+            <div class="reg3">
+                <i class="fa-solid fa-lightbulb fa-3x fasm"></i>
+                <p  style="text-align: left;"   > The competition will be judged and mentored by a panel of experts from electrical academic and industrial fileds..</p>  
+            </div>
+        </td>
+    </tr>
+ </table>
+ 
+ <i class="fa-solid fa-lightbulb"></i>
+           
+    </div>
+</section>
 
-        TweenMax.from(".year", 1, {
-            opacity: 0,
-            delay: 3.6,
-            y: -20,
-            ease: Expo.easeInOut
-        })
+<section id="Register">
+<div class="regisetr">
 
-        TweenMax.staggerFrom(".media ul li", 2, {
-            opacity: 0,
-            delay: 3.,
-            y: 40,
-            ease: Expo.easeInOut
-        }, 0.2)
-    </script>
+<h1> Grab your Tickets <span>FAST!</span></h1>
+<p>( Read the <a href="#">Terms & Conditions </a> carefully before buying your tickets  )</p>
+
+
+
+<table >
+    <tr>
+        <td class="payment">IEEE<br> PES MEMBER<br> RS 1200/-   
+             <br> <button class="btn">Register</button>
+        </td>
+        <td class="payment">IEEE <br>MEMBER<br> RS 1400/-   
+            <br> <button class="btn">Register</button>
+       </td>
+       <td class="payment"> NON IEEE<br> PES MEMBERS<br> RS 1600/-   
+        <br> <button class="btn">Register</button>
+   </td>
+    </tr>
+</table>
+</section>
+
+
+<section id="cnt">
+    <div class="contact">
+        <h1 >Contact us </h1>
+        <div class="mapframe">
+            <h6 >Find us</h6>
+            <iframe width="600px" height="500px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9909691101193!2d76.55441247411399!3d9.06458629099817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06047ba58e1ba5%3A0x34bf71aaecc5a798!2sIHRD%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1699042779049!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <div class="cinfo"> Where to Find us 
+                <p>
+                    IEEE SB CEK
+                    <br>
+                    College of Engineering Karunagappally
+                    <br>
+                    Thodiyoor P O Kollam
+                </p>
+            </div>
+            <div class="cinfo">
+                <p class="Pheading"> Email us at </p>
+                <p padding-top="0"> ieeesbcek2000@gmail.com</p>
+                <br>
+
+            </div>
+
+            <div class="cinfo">
+                <p class="Pheading"> Call us at </p>
+                <p>
+                    Sidhi A S
+                    <font style=" font-size: 14px;"> +91 9778231771</font>
+                    <br>
+                    Archa A
+                    <font style=" font-size: 14px;"> +91 8848009402</font>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="index.js"> </script>
 </body>
 
 </html>
