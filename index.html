@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxathon</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- <div class="stripes">
+            <div class="line-one"></div>
+            <div class="line-two"></div>
+        </div> -->
+        <!-- navbar============== -->
+        <nav>
+            <div class="logo">
+                <span>luxathon</span>
+            </div>
+            <ul >
+                <li><a href="">About</a></li>
+                <li><a href="">Register</a></li>
+                <li><a href="">Terms and condition</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="menu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="img">
+            <img src="bulb.gif" alt="">
+        </div>
+
+        <div class="title">
+      
+            <span>Luxathon 4.0.</span>
+         
+            <p>Design . Develop . Illuminate </p>
+        </div>
+
+        <!-- <div class="btn">
+            <a href="">Register now</a>
+        </div> -->
+
+
+        <div class="media" style="color: limegreen;">
+            <ul>
+                <li><a href="https://www.facebook.com/luxathon"></a><i class="fa fa-facebook"></i></li>
+                <li><a href="https://www.instagram.com/ieee_sb_cek/"></a><i class="fa fa-instagram"></i></li>
+                <li> <i class="fa-brands fa-x-twitter"> </i> </li>
+            </ul>
+        </div>
+
+    </div>
+    <script>
+        TweenMax.from(".logo", 1, {
+            opacity: 0,
+            delay: 2,
+            x: -20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom("nav ul li", 1, {
+            opacity: 0,
+            delay: 2.2,
+            x: -20,
+            ease: Power3.easeInOut
+        }, 0.8)
+
+        TweenMax.from(".search", 1, {
+            opacity: 0,
+            delay: 2.35,
+            x: -20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".menu", 1, {
+            opacity: 0,
+            delay: 2.55,
+            x: -20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".title", 1, {
+            opacity: 0,
+            delay: 2.75,
+            y: 20,
+            ease: Expo.fadeIn
+        })
+
+        TweenMax.from(".btn", 1, {
+            opacity: 0,
+            delay: 2.95,
+            y: 20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".line-one", 1, {
+            opacity: 0,
+            delay: 3.15,
+            y: -800,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".line-two", 1, {
+            opacity: 0,
+            delay: 3.35,
+            y: -800,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".img", 2, {
+            opacity: 0,
+            delay: 0,
+            y: -800,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".year", 1, {
+            opacity: 0,
+            delay: 3.6,
+            y: -20,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.staggerFrom(".media ul li", 2, {
+            opacity: 0,
+            delay: 3.,
+            y: 40,
+            ease: Expo.easeInOut
+        }, 0.2)
+    </script>
+</body>
+
+</html>
