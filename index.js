@@ -40,23 +40,10 @@ TweenMax.from(".btn", 1, {
     ease: Expo.easeInOut
 })
 
-TweenMax.from(".line-one", 1, {
-    opacity: 0,
-    delay: 3.15,
-
-    ease: Expo.easeInOut
-})
-TweenMax.from(".line-two", 1, {
-    opacity: 0,
-    delay: 3.35,
-    y: -800,
-    ease: Expo.easeInOut
-})
-
 TweenMax.from(".img", 2, {
     opacity: 0,
     delay: 0,
-    y: -800,
+  
     ease: Expo.fadeIn   
 })
 
