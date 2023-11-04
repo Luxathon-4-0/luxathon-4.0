@@ -43,7 +43,7 @@ TweenMax.from(".btn", 1, {
 TweenMax.from(".line-one", 1, {
     opacity: 0,
     delay: 3.15,
-    y: -800,
+
     ease: Expo.easeInOut
 })
 TweenMax.from(".line-two", 1, {
