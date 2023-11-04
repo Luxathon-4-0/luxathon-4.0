@@ -43,7 +43,6 @@ TweenMax.from(".btn", 1, {
 TweenMax.from(".img", 2, {
     opacity: 0,
     delay: 0,
-  
     ease: Expo.fadeIn   
 })
 
