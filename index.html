@@ -6,26 +6,40 @@
     <title>Luxathon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- gsap -->
 
+<!-- gasp -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:ital,wght@0,100;0,200;0,400;0,900;1,100;1,200&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto+Mono:ital,wght@1,200&family=Sacramento&display=swap" rel="stylesheet">
+<script defer src="index.js"></script>
+
 </head>
-<body>
+<body><div">
+
+<div class="navClass">
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <img height="30px" width="30px" src="lx.png">
+        <div  class="container-fluid">
+          <img  class="logo" height="30px" width="30px" src="lxw.png">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul color class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <div   class="collapse navbar-collapse" id="navbarNav">
+            <ul  color class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
-              <li class="nav-item">
+              <li  class="nav-item">
+                
                 <a class="nav-link" href="#about">About</a>
               </li>
-              <li class="nav-item">
+              <li  class="nav-item">
                 <a class="nav-link" href="#register">Register</a>
               </li>
               <li class="nav-item">
@@ -39,26 +53,49 @@
           </div>
         </div>
       </nav>
-
+    </div>
+    </div>
       <section id="home">
-      
- 
         <div id="idmainPage">
+          <div class="homepag">
+        <div class="img">
+          <img src="bulb.gif" alt="">
+      </div>
+
+      <div class="title">
+    
+          <span>LUXATHON 4.0</span>
+       
+          <p id="demo">Design . Develop . Illuminate </p>
+        <h5 class="date"> 8th 9th &10th December</p>
+        </div>
+        </div>
+</div>
+
+ 
+        <!-- <div id="idmainPage">
           <video class="vid" autoplay muted > 
            
-            <source src="video.mp4" type="video/mp4">
+            <source src="video1.mp4" type="video/mp4">
           </video>
-        </div>
+        </div> -->
       </section>
 
       <section id="about">
-        <h1 >
-          LUXATHON 4.0 <hr>
-     </h1>
-     <p> Luxathon is world's first 24-Hour university level electrical illumination  hackathon conducted by college of Engineering Karunagappally within 24 hours the participants has to design and develop an illumination system according to the specified theme and requirements by using given equipment in the most efficient way and according to standards</p>
+        <div class="aboutClass">
+        <div class="EventInfo">
+          <h1 >
+            LUXATHON 4.0 <hr>
+       </h1>
+       <p class="aboutP"> Luxathon is world's first 24-Hour university level electrical illumination  hackathon conducted by college of Engineering Karunagappally within 24 hours the participants has to design and develop an illumination system according to the specified theme and requirements by using given equipment in the most efficient way and according to standards</p>
+        </div>
+        
       
     <div class="content">
-      <p style="font-size:  1.5625vw">Get ready to light up the night and brighten your calendars! 
+     
+
+
+      <p class="timerP">Get ready to light up the night and brighten your calendars! 
         <br>
         The countdown has begun for an electrifying event that will illuminate<br>
          your December evenings. Mark your calendars and stay tuned for the <br>big reveal!</p>
@@ -86,39 +123,42 @@
           <img src="rocket2.png" class="rocket">
         </div>
         </div>
+      </div>
     </section>
 
     <section id="whtdo">
       <h1>What to do ?</h1>
 
       <div class="conatiner">
-        <div class="row">
+        <div class="row " >
           <div class="col-md-6">
             <div class="reg" >
-              <i class="fa-solid fa-people-robbery fasm fa-3x"></i>
+              <i class="fa-solid fa-people-robbery fasm fa-2x"></i>
+
+              <br>
           <p  class="cta" style="text-align: center;">Register as a team of 4-5 members.Work together as team.Win as a team</p>   
           </div>
           </div>
 
           <div class="col-md-6">
-            <div class="reg" >
-              <i class="fa-solid fa-terminal fasm fa-3x"></i>
-              <p  style="text-align: center;">All necessary equipments will be provided to the participants except arduino or raspberry pi board that should be brought by each team or can be hired from the venue. Also each team should carry one laptop.</p>   
+            <div class="reg">
+              <i class="fa-solid fa-terminal fasm fa-2x"></i>
+              <p  class="cta"  style="text-align: center;">All necessary equipments will be provided to the participants except arduino or raspberry pi board that should be brought by each team or can be hired from the venue. Also each team should carry one laptop.</p>   
               </div>
           </div>
 
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: 2vw;">
           <div class="col-md-6">
             <div class="reg" >
-              <i class="fa-solid fa-wrench fa-3x fasm"></i>
-                <p  style="text-align: center;"> A mentoring session explaining the bare minimum concepts will be provided by experts so that anyone with basic electrical knowledge can participate in the hackathon.</p>
+              <i class="fa-solid fa-wrench fa-2x fasm"></i>
+                <p  class="cta"  style="text-align: center;"> A mentoring session explaining the bare minimum concepts will be provided by experts so that anyone with basic electrical knowledge can participate in the hackathon.</p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="reg" >
-            <i class="fa-solid fa-lightbulb fa-3x fasm"></i>
-                <p  style="text-align: center;" > The competition will be judged and mentored by a panel of experts from electrical academic and industrial fileds..</p>  
+            <i class="fa-solid fa-lightbulb fa-2x fasm"></i>
+                <p   class="cta"  style="text-align: center;" > The competition will be judged and mentored by a panel of experts from electrical academic and industrial fileds..</p>  
             </div>
           </div>
         </div>
@@ -129,7 +169,7 @@
 
     <section id="register">
       <h1 style="font-size:4vw;"> Grab your Tickets <span>FAST!</span></h1>
-      <p  style="font-size:2vw">( Read the <a href="#">Terms & Conditions </a> carefully before buying your tickets  )</p>
+      <p  style="font-size:2vw">( Read the <a href="terms.html">Terms & Conditions </a> carefully before buying your tickets  )</p>
     </section>
 <div style="text-align: center;" class="row">
   <div class="col-md-4">
@@ -137,7 +177,7 @@
       <div class="card-body">
         <h5  class="card-title">IEEE</h5>
         <p class="card-text">PES Members</p>
-        <a href="#" class="btn btn-primary">Register</a>
+        <a href="#" class="btn btn-success">Register</a>
       </div>
     </div>
   </div>
@@ -145,8 +185,8 @@
     <div class="card" >
       <div class="card-body">
         <h5 class="card-title">IEEE</h5>
-        <p class="card-text">Members</p>
-        <a href="#" class="btn btn-primary">Register</a>
+        <p class="card-text" >Normal Members</p>
+        <a href="#" class="btn btn-success">Register</a>
       </div>
     </div>
   </div>
@@ -155,7 +195,7 @@
       <div class="card-body">
         <h5 class="card-title">NON-IEEE</h5>
         <p class="card-text">Members</p>
-        <a href="#" class="btn btn-primary">Register</a>
+        <a href="#" class="btn btn-success">Register</a>
       </div>
     </div>
   </div>
@@ -165,23 +205,24 @@
 
 
 <section id="contact">
+  <div class="maps" >
   <h1 >Contact us </h1>
   <div class="row">
     <div class="col-md-6">
-    
       <div class="mapframe">
         <h6 >Find us</h6> 
-        <iframe style=" width:39.0625vw ; height: 31.25vw;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9909691101193!2d76.55441247411399!3d9.06458629099817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06047ba58e1ba5%3A0x34bf71aaecc5a798!2sIHRD%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1699042779049!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9909691101193!2d76.55441247411399!3d9.06458629099817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06047ba58e1ba5%3A0x34bf71aaecc5a798!2sIHRD%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1699042779049!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 
     </div>
    
       <div class="col-md-6">
-        <h5> Where to find us</h5>
+        <div class="findUS">
+          <h5> Where to find us</h5>
         <div class="contactMan"> 
         <div class="cinfo"> 
-       
+    
           <p>
               IEEE SB CEK
               <br>
@@ -207,16 +248,17 @@
               <font style=" font-size: 14px;"> +91 8848009402</font>
         
           </p>
-        </div>  
+        </div> 
+       </div>
+        
       </div>
     </div>
     
   </div>
- 
+</div>
 
     </section>
 
-<script src="index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
