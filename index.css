@@ -340,13 +340,7 @@ nav li a:hover{
    font-size: 20vh;
         
     }
-    .rocketHolder{
 
-        height: 50vh ;
-        position: absolute;
-        margin-left: 62.5vw ;
-    }
-}
 
     #about{
         overflow: hidden;
@@ -483,18 +477,8 @@ nav li a:hover{
         width: auto;
         font-size: 3vw;
     }
- 
-    .rocket{
-        width: 19vw;
-        top:82vh;  
-        display:hidden;
-    }
-    .rocketHolder{
-        margin-left: 59vw ;
-        top: 100vh;
-        width: 30vh;
-        height: 30vh;
-    }
+
+  
    
     section#whtdo{
         height: 63vh;
@@ -522,20 +506,7 @@ nav li a:hover{
         width: auto;
         font-size: 1vh;
     }
-    .rocket{
-        width: 39vw;
-        top:40vh;  
-        padding: 10px;
-        display:hidden;
-
-    }
-    .rocketHolder{
-        margin-left: 59vw ;
-        top: 100vh;
-        width: 3vh;
-        height: 30vh;
-  
-    }
+   
     
     section#whtdo{
         height: 70vh;
