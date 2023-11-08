@@ -399,36 +399,8 @@ nav li a:hover{
     
     }
 
-.rocketHolder{
-    top:50vw;
-    height: 5vh ;
-    width: 5vw;
-    position: absolute;
-    opacity: 0;
-    display: hidden;
-    margin-left: 62.5vw ;
-}
-    .rocket{
-        width:5vw;
-        position: relative;
-        animation: rocket 4s linear infinite;
-        padding-bottom: 0;
-        padding-left: 3.90625vw;
-        margin-bottom: 10vh;
-        overflow-x: hidden;
-    }
 
-@keyframes rocket{
-    0%{
-        bottom:50%;
-        opacity: 0;
-    }
-   
-    100%{
-        bottom: 100%;
-        opacity: 1;
-    }
-}
+
 
 
 /* WhattoDo */
