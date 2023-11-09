@@ -153,10 +153,11 @@ nav li a:hover{
 
 @media(max-width:800px){
     #idmainPage{
-         height:110vh;
-         width:50%;
-     }
-
+    height:100vh ;
+   }
+   .aboutClass{
+    height:90vh;
+   }
      .img img {
         position: relative;
         width: 200vw;
