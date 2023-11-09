@@ -158,6 +158,10 @@ nav li a:hover{
    .aboutClass{
     height:90vh;
    }
+  .title p {
+        padding-left: 16vh;
+        font-size: 1vh;
+    }
      .img img {
         position: relative;
         width: 200vw;
