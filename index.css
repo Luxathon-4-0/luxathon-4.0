@@ -151,9 +151,9 @@ nav li a:hover{
 }
 
 
-@media(max-width:700px){
+@media(max-width:800px){
     #idmainPage{
-         height:30vh;
+         height:110vh;
          width:50%;
      }
 
@@ -231,55 +231,7 @@ nav li a:hover{
     right:30vh ;
     letter-spacing: 6px;
 }
-/* .img img {
-    position: relative;
-    width: 50vw;
-    
 
-}
-
-.title {
-    position: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    top: 40vh;
-    left: 35%;
-    position: fixed;
-    font-size: 7.8125vw;
-    font-weight: 500;
-    color: lightgreen;
-    letter-spacing: -6px;
-}
-.logo {
-    position: relative;
-    left:2vw;
-    font-size: 5em;
-    color: lightgreen;
-    font-weight: bold;   
-}
-
-.title p{
-    margin:2vw ;
-    padding:1.5625vw;
-    font-size:1.5625vw;
-    font-weight: 300;
-    color: rgb(33, 182, 33);
-    text-transform: uppercase;
-   
-    right:30vh ;
-    letter-spacing: 6px;
-} */
-
-/* .vid{
-    padding: 0%;
-    margin: 0%;
-    width:100%;
-    position: relative;
-    left: 0;
-    opacity:70%;
-    transition-delay: 1s;
-  
-} */
 @media(max-width:900px){
     .img img {
         position: relative;
@@ -294,12 +246,13 @@ nav li a:hover{
         top:30vh;
     }
     .title p {
-        padding-left: 20vh;
+        padding-left: 18vh;
+        font-size: 1vh;
     }
     h5.date{
  text-align:left;
  font-size: 1.7vh;
- margin-left:28vh;
+ margin-left:24vh;
     }
 
     .title span{
@@ -308,57 +261,68 @@ nav li a:hover{
         top:0;
         font-size: 5vh;
     }
-    .aboutClass{
-        height:30vh;
-    }
 
     #idmainPage{
         height:70vh;
         width:auto;
         background-color: #000;
     }
-    .vid{
-        height: 80vh;
-        width:45vh;
-    }
-    #about{
-        overflow-x: hidden;
-        margin: 3vw;
-    }
+   
 
     .EventInfo h1{
-        padding-top:2em ;
+        padding-top:1vh ;
         text-align: center;
         font-size: 10vh;
     }
     .EventInfo .aboutP{
         padding: 1vh;
         font-size:2vh;
-        text-align: left;
+        text-align: center;
+        letter-spacing: 1px;
+       
     }
-    .content .timerP{
-   font-size: 20vh;
-        
+    .launchTimer{
+        padding-left:0px;
+        height:10vh;
+        width:70%;
     }
 
+    .launchTimer div{
+        height: 20vw;
+    }
+    .launchTimer p{
+        font-size: 10vh;
+    }
+    .launchTimer .dateCount{
+        font-size: 4vw;
+        padding-left: 2vh;
+    }
+    .launchTimer .timerCount{
+        font-size: 5vw;
+        padding-left: 2vh;
+    }
+    .launchTimer .lximage{
 
-    #about{
-        overflow: hidden;
-        margin: 2vw;
-     
-
-        /*  */
       
+        left:-200vh;
+
     }
+    .content{
+        width:110vw;
+    }
+ 
+}
+
+   
+
     .aboutClass{
-        height: 110vh;
-    
+        height: 120vh;
     }
 
     #about h1{
-        padding-top:2vw ;
+        padding-top:7vw ;
         text-align: center;
-        font-size: 8vw;
+        font-size: 7vw;
     }
    
     .EventInfo p{
@@ -374,7 +338,7 @@ nav li a:hover{
 
     .launchTimer{
         display: flex;
-        padding-left: 7.8125vw;
+        padding-left: 8vw;
         padding-top: 0%;
         overflow: hidden;
         margin-bottom: 6vw;
@@ -385,15 +349,30 @@ nav li a:hover{
         flex-basis: 7.8125vw;
     }
     .launchTimer p{
-        font-size: 3.90625vw;
+        /* font-size: 10vw;
+        padding-left: 1vw; */
+        font-size: 4.90625vw; 
+        padding-top: 0%;
+         padding-right: 0px;
+         padding-bottom: 0px;
     }
 
     .launchTimer span{
-        margin-left: 5.5vw;
-    
+    font-size: 1.5vw;
     }
-
-
+    .lximage{
+        height:30vh;
+        width: 20vw;
+        margin-left: 35vw;
+        margin-bottom: 6vw;
+    }
+   .iconimage{
+        height: 30vh;
+        top:-5%;
+        width: 20vh;
+        padding-bottom: 3vw;
+       
+    }
 
 
 
@@ -454,7 +433,12 @@ nav li a:hover{
 
 @media(max-width:700px){
 
-    
+   #idmainPage{
+    height:80vh ;
+   }
+   .aboutClass{
+    height:80vh;
+   }
     .reg{
         width: 90vw;
         height: 1vw;
@@ -471,6 +455,12 @@ nav li a:hover{
     .reg .cta{
         font-size:2.8vw;
         }
+        .reg .cta1{
+            font-size:2.8vw;
+            }
+            .reg .cta1:hover{
+                font-size:2.8vw;
+                }
     .reg:hover{
         height: 3vw;
         height: 20vw;
@@ -485,6 +475,7 @@ nav li a:hover{
     }
 
 }
+
 @media(max-width:900px){
     .fasm{
        display: flex;
@@ -506,14 +497,16 @@ nav li a:hover{
         width: auto;
         font-size: 1vh;
     }
-   
-    
+
     section#whtdo{
         height: 70vh;
-    }
-    
+    }  
 
 }
+
+
+
+
 #whtdo h1{
     margin-top: 5vw;  
     color:white;
@@ -522,6 +515,7 @@ nav li a:hover{
     font-size: 5vw;
     font-weight: 600;
 }
+
 
 .reg p{
     font-size:1.5vw;
@@ -566,6 +560,7 @@ font-weight: 500;
 }
 .card-title{
     font-size: 4.5vw;
+    position: sticky;
 }
 .card-text{
     font-size: 2.5vw;
@@ -665,10 +660,4 @@ iframe{
         height: 30vw;
     }
 }
-
-
-
-
-
-
 
