@@ -434,11 +434,11 @@ nav li a:hover{
 @media(max-width:700px){
 
    #idmainPage{
-    height:80vh ;
+    height:100vh ;
    }
    .aboutClass{
-    height:80vh;
-   }
+    height:90vh;
+   }}
     .reg{
         width: 90vw;
         height: 1vw;
